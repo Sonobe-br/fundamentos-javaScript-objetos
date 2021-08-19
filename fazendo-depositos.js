@@ -28,6 +28,10 @@ const custumerData = {
         this.balanceAvaliable += value
     }     
 }
+/* solicitei a saída através do console.log onde o objeto através do método notação de ponto, 
+acessa a propriedade da variável saldo da conta(balanceAvaliable) que retona o valor de 100. */ 
 console.log(custumerData.balanceAvaliable)
+//o objeto por intermédio do método notação de ponto (.) atribui um valor para a função cashDeposit.  
 custumerData.cashDeposit(30)
+//o objeto acessa a propriedade da váriavel saldo da conta por meio do método notação de ponto.
 console.log(custumerData.balanceAvaliable)
