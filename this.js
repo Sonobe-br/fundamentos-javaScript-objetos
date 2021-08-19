@@ -6,7 +6,7 @@ let pessoa1 = {
   }
   console.log(pessoa1)
 
-  let pessoa2 = {
+  let pessoa2 = { 
     nome: 'Brian',
     saudacao: function() {
       alert('Oi! Meu nome é ' + this.nome + '.');
